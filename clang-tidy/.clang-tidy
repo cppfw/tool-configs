@@ -1,4 +1,4 @@
-# version 0
+# version 1
 
 Checks: |
   readability-identifier-naming,
@@ -6,6 +6,7 @@ Checks: |
   -modernize-use-trailing-return-type,
   -modernize-use-nodiscard,
   -modernize-use-scoped-lock,
+  -modernize-concat-nested-namespaces,
   bugprone-*,
   -bugprone-easily-swappable-parameters,
   cppcoreguidelines-*,
